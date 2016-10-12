@@ -50,7 +50,7 @@
         <dependency>
             <groupId>org.glassfish.tyrus</groupId>
             <artifactId>tyrus-server</artifactId>
-            <version>1.12-SNAPSHOT</version>
+            <version>1.12</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.glassfish.grizzly</groupId>
@@ -65,7 +65,7 @@
         <dependency>
             <groupId>org.glassfish.tyrus</groupId>
             <artifactId>tyrus-container-grizzly-server</artifactId>
-            <version>1.12-SNAPSHOT</version>
+            <version>1.12</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.glassfish.grizzly</groupId>
