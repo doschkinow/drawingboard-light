@@ -10,7 +10,6 @@ import java.net.URI;
 import java.util.Optional;
 import javax.websocket.DeploymentException;
 import org.glassfish.grizzly.http.server.CLStaticHttpHandler;
-import org.glassfish.grizzly.http.server.StaticHttpHandler;
 import org.glassfish.jersey.media.sse.SseFeature;
 import org.glassfish.jersey.moxy.json.MoxyJsonFeature;
 import org.glassfish.tyrus.server.TyrusServerContainer;
