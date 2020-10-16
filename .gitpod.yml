@@ -1,1 +1,2 @@
-image: node:alpine
+image: 
+  file: .gitpod.Dockerfile
