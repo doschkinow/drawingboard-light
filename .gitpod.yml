@@ -1,2 +1,6 @@
-image: 
-  file: .gitpod.Dockerfile
+ports:
+  - port: 8080
+    onOpen: open-preview
+tasks:
+  - init: mvn package
+    command: java -jar target/drawingboard-light-1.0-SNAPSHOT-jar-with-dependencies.jar
