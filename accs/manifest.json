@@ -1,7 +1,0 @@
-{
-    "runtime": {
-        "majorVersion": "8"
-    },
-    "command": "java -jar drawingboard-light-1.0-SNAPSHOT-jar-with-dependencies.jar",
-    "notes": "Drawingboard Light with Java"
-}
