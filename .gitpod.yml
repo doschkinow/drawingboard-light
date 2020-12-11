@@ -1,4 +1,4 @@
-#image: ksimple/java8-mvn-nodejs-npm-python3
+image: ams.ocir.io/oraseemeadesandbox/gitpod/oci:1.0
 ports:
   - port: 8080
     onOpen: open-preview
