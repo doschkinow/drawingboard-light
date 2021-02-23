@@ -3,5 +3,6 @@ ports:
   - port: 8080
     onOpen: open-preview
 tasks:
-  - init: mvn package
+  - before: git config credential.helper "/usr/bin/gp credential-helper" 
+    init: mvn package
     command: java -jar target/drawingboard-light-1.0-SNAPSHOT-jar-with-dependencies.jar
